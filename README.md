@@ -32,7 +32,3 @@ So we've been working on our underbar repo alone, made some changes, commits and
 - Your partner could go ahead and repeat the last step with his/her repo.
 - Done. All your work is now on your GitHub account.
 - Wondering how to get new amazing branch on your computer and keep working? Just navigate to your local repo and do a ```git pull``` after that just do a checkout to that branch ```git checkout pair_programming```
-
-*This will be Italic*
-
-**This will be Bold**
