@@ -10,12 +10,12 @@ Let's imagine we just got a new assignment. I'll be using underbar as an example
 - Find the repo in github. ```https://github.com/hackreactor/2014-01-underbar```
 - **Fork** the repo in to **YOUR** account.
 - Clone this newly forked repo on your machine. Make sure it's your repo and not HR's (look for your username on the url in my case *deini*) ```git clone https://github.com/deini/2014-01-underbar.git```
-- Set up the upstream to HR's repo ```git remote add upstream https://github.com/hackreactor/2014-01-underbar.git```
+- Set up the upstream to **HR**'s repo ```git remote add upstream https://github.com/hackreactor/2014-01-underbar.git```
 - Assuming you've been working on the master branch and commiting the changes you can push it to your repo like this ```git push origin master```
 
 Clean Branch
 --------------
-So ... you decide it would be fantastic to start all over again just becase we love **underbar** so you decide to create a new branch. Since we've been working on our master branch, if we create a new one we will have all those changes too ... we don't want that. Super simple steps:
+So ... you decide it would be fantastic to start all over again just becase we love **underbar** and you decide to create a new branch. Since we've been working on our master branch, if we create a new one we will have all those changes too ... we don't want that. Super simple steps:
 - Create a new branch by fetching it from **HR's** repo like this: ```git fetch upstream master:radBranch```
 - We can go ahead and checkout to our newly created branch ```git checkout radBranch``` and it's all new and clean.
 - Do some work, commit, and push it ```git push origin radBranch```
