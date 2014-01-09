@@ -32,3 +32,5 @@ So we've been working on our underbar repo alone, made some changes, commits and
 - Your partner could go ahead and repeat the last step with his/her repo.
 - Done. All your work is now on your GitHub account.
 - Wondering how to get new amazing branch on your computer and keep working? Just navigate to your local repo and do a ```git pull``` after that just do a checkout to that branch ```git checkout pair_programming```
+
+Tired of always using the full url to your repo when you are not in your computer? Go ahead and add yourself as a remote ```git remote add myName https://github.com/deini/2014-01-underbar.git``` and nextime instead of typing the url to your repo just use myName instead. Same rule apply to your partner. (You can have several remotes)
