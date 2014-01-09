@@ -1,7 +1,7 @@
 git-basics
 ==========
 
-Super basic git tutorial focused on HR workflow. Feel free to create a pull request to fix/add anything.
+Super basic git tutorial focused on HR's workflow. Feel free to create a pull request to fix/add anything.
 
 
 New Assignment
