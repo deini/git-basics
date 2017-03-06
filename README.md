@@ -15,7 +15,7 @@ Let's imagine we just got a new assignment. I'll be using underbar as an example
 
 Clean Branch
 --------------
-So ... you decide it would be fantastic to start all over again just becase we love **underbar** and you decide to create a new branch. Since we've been working on our master branch, if we create a new one we will have all those changes too ... we don't want that. Super simple steps:
+So ... you decide it would be fantastic to start all over again just because we love **underbar** and you decide to create a new branch. Since we've been working on our master branch, if we create a new one we will have all those changes too ... we don't want that. Super simple steps:
 - Create a new branch by fetching it from **HR's** repo like this: ```git fetch upstream master:radBranch```
 - We can go ahead and checkout to our newly created branch ```git checkout radBranch``` and it's all new and clean.
 - Do some work, commit, and push it ```git push origin radBranch```
@@ -28,9 +28,9 @@ So we've been working on our underbar repo alone, made some changes, commits and
 - Clone **HR's** repo ```git clone https://github.com/hackreactor/2014-01-underbar.git```
 - Do some work ... don't forget to commit frequently!
 - **\*harp noise*** Time to start wrapping up, we want to make sure to push this to our GitHub accounts.
-- Make sure you push to **YOUR** repo in my case I want to create a new branch on my account named pair_programming ```git push <my git repo url> <branch you've been working on>:<new branch name for your repo>``` so for me it will be ```git push https://github.com/deini/2014-01-underbar.git master:pair_programming``` 
+- Make sure you push to **YOUR** repo; in my case I want to create a new branch on my account named pair_programming ```git push <my git repo url> <branch you've been working on>:<new branch name for your repo>``` so for me it will be ```git push https://github.com/deini/2014-01-underbar.git master:pair_programming``` 
 - Your partner could go ahead and repeat the last step with his/her repo.
 - Done. All your work is now on your GitHub account.
 - Wondering how to get new amazing branch on your computer and keep working? Just navigate to your local repo and do a ```git pull``` after that just do a checkout to that branch ```git checkout pair_programming```
 
-Tired of always using the full url to your repo when you are not in your computer? Go ahead and add yourself as a remote ```git remote add myName https://github.com/deini/2014-01-underbar.git``` and nextime instead of typing the url to your repo just use myName instead. Same rule apply to your partner. (You can have several remotes)
+Tired of always using the full url to your repo when you are not in your computer? Go ahead and add yourself as a remote ```git remote add myName https://github.com/deini/2014-01-underbar.git``` and next time instead of typing the url to your repo just use myName instead. Same rules apply to your partner. (You can have several remotes.)
